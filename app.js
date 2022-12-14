@@ -6,7 +6,7 @@ port = 3000;
 
 //setting mustache engine
 app.engine('mustache', mustacheExpress());
-app.set('views', '/views');
+app.set('views', './views');
 app.set('view engine', 'mustache');
 
 
