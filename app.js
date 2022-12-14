@@ -11,7 +11,7 @@ app.set('view engine', 'mustache');
 
 
 app.get('/', (req, res) => {
-    res.send("Naveen");
+    res.render('home');
 })
 
 
