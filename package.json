@@ -1,0 +1,14 @@
+{
+  "name": "nodenow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
